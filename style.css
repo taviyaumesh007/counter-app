@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Titan+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   'Balsamiq Sans', cursive;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: rgb(49, 7, 44);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .counter{
+    background-color: rgba(22, 63, 56, 0.438);
+    padding: 2.5em;
+    border-radius: 50px;
+    box-shadow: 2px 7px 29px 2px;
+}
+.container .counter p{
+    text-align: center;
+    font-size: 200px;
+    font-weight: 300;
+    line-height: 1;
+    color: azure;
+    box-shadow: 5px 5px 500px 2px;
+    border-radius: 50px;
+
+}
+.container .buttons{
+    text-align: center;
+    margin-top: 2rem;
+}
+.container .buttons button{
+    font-size: 40px;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.container .buttons button#sub {
+    background-color: rgb(253, 1, 1);
+    color: azure;
+    box-shadow: 2px 2px 200px 2px;
+    border-radius: 50px;
+}
+.container .buttons button#plus {
+    background-color: rgb(22, 253, 1);
+    color: azure;
+    box-shadow: 5px 5px 200px 2px;
+    border-radius: 50px;
+}
+.container .buttons button#reset {
+    background-color: rgb(5, 1, 253);
+    color: azure;
+    box-shadow: 5px 5px 100px 2px;
+    border-radius: 50px;
+}
